@@ -8,7 +8,7 @@ new Vue({
         addTask() {
             if (this.newTask.trim() !== '') {
                 this.tasks.push({ text: this.newTask, completed: false });
-                this.newTask = ''; // Limpa o campo de entrada
+                this.newTask = '';
             }
         },
         toggleTask(index) {
